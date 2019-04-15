@@ -1,5 +1,6 @@
 package factoryMethod;
 
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class Iphone implements Phone {
     private String model;
     private String colour;

@@ -8,7 +8,5 @@ public class App {
         DeviceFactory sonyFactory = new SonyDeviceFactory();
         sonyFactory.getNotebook().start();
         sonyFactory.getMonitor().show();
-
-
     }
 }
